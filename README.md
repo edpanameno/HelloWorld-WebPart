@@ -1,5 +1,6 @@
-## helloworld-webpart
-This is my first web part built using the sharepoint framework.
+## HelloWorld-Webpart
+This is my first web part built using the sharepoint framework. I am working thru the tutorial on microsoft's web site found 
+[here](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
 
 ### Building the code
 
