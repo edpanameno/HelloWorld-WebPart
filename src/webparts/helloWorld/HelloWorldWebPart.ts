@@ -8,11 +8,6 @@ import {
   PropertyPaneToggle
 } from '@microsoft/sp-webpart-base';
 
-import { escape } from '@microsoft/sp-lodash-subset';
-
-import styles from './HelloWorldWebPart.module.scss';
-import * as strings from 'HelloWorldWebPartStrings';
-import MockHttpClient from './MockHttpClient';
 import {
   SPHttpClient,
   SPHttpClientResponse
@@ -22,6 +17,12 @@ import {
   Environment,
   EnvironmentType
 } from '@microsoft/sp-core-library';
+
+import { escape } from '@microsoft/sp-lodash-subset';
+
+import styles from './HelloWorldWebPart.module.scss';
+import * as strings from 'HelloWorldWebPartStrings';
+import MockHttpClient from './MockHttpClient';
 
 export interface ISPLists {
   value: ISPList[];
